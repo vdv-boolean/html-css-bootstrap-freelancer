@@ -2,12 +2,20 @@
 Debug structure
 ************************************************/
 
-.navbar {
+nav {
     height: 90px;
     background-color: var(--drk-grey);
 }
 
 .jumbo {
     height: 500px;
+    background-color: var(--green);
+}
+
+section {
+    height: 500px;
+}
+
+section:nth-child(2) {
     background-color: var(--green);
 }
