@@ -20,7 +20,13 @@ nav .col-1 {
 }
 
 section {
-    height: 500px;
+    min-height: 500px;
+}
+
+.box {
+    height: 360px;
+    background-color: salmon;
+    border-radius: 20px;
 }
 
 section:nth-child(2) {
