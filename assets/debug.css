@@ -39,6 +39,10 @@ section:nth-child(2) {
     color: white;
 }
 
+footer {
+    color: white;
+}
+
 .up-foot {
     height: 500px;
     background-color: var(--blue-grey);
