@@ -7,6 +7,13 @@ nav {
     background-color: var(--drk-grey);
 }
 
+nav .container,
+nav .col-4,
+nav .col-1 {
+    height: 100%;
+    border: 1px solid black;
+}
+
 .jumbo {
     height: 500px;
     background-color: var(--green);
@@ -18,4 +25,14 @@ section {
 
 section:nth-child(2) {
     background-color: var(--green);
+}
+
+.up-foot {
+    height: 500px;
+    background-color: var(--blue-grey);
+}
+
+.down-foot {
+    height: 90px;
+    background-color: var(--drk-grey);
 }
