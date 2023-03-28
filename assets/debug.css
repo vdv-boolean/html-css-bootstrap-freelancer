@@ -1,0 +1,13 @@
+/************************************************
+Debug structure
+************************************************/
+
+.navbar {
+    height: 90px;
+    background-color: var(--drk-grey);
+}
+
+.jumbo {
+    height: 500px;
+    background-color: var(--green);
+}
