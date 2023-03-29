@@ -1,9 +1,57 @@
 /************************************************
-Color palette
+General settings 
 ************************************************/
+
+/***********************
+Color palette
+***********************/
 
 :root {
     --drk-grey: #273646;
     --green: #19B491;
     --blue-grey: #334A62;
 }
+
+/***********************
+Pseudo element
+***********************/
+.pseudo {
+    --i-size: 2rem;
+    --h-bar: 5px;
+    --w-bar: 150px;
+
+    position: relative;
+}
+
+.pseudo i  {
+    font-size: var(--i-size);
+}
+
+.pseudo:before {
+    content: "";
+    display: block;
+    height: var(--h-bar);
+    width: var(--w-bar);
+    background-color: white;
+    position: absolute;
+    left: calc(50% - var(--w-bar) - (var(--i-size)*1.5));
+    top: 50%;
+}
+
+.pseudo:after {
+    content: "";
+    display: block;
+    height: var(--h-bar);
+    width: var(--w-bar);
+    background-color: white;
+    position: absolute;
+    right: calc(50% - var(--w-bar) - (var(--i-size)*1.5));
+    top: 50%;
+}
+
+.pseudo-black::before,
+.pseudo-black::after {
+    background-color: black;
+}
+
+
