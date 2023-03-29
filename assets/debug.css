@@ -3,32 +3,30 @@ Debug structure
 ************************************************/
 
 nav {
-    /* height: 90px; */
+    height: 90px;
 }
 
 .jumbo {
-    /* height: 500px; */
+    height: 500px;
 }
 
-.jumbo img {
-    height: 260px;
-} 
+
 
 section {
     min-height: 500px;
 }
 
 .box {
-    /* height: 360px;
-    background-color: salmon;  */
+    height: 360px;
+    background-color: salmon; 
 } 
 
 
 
 .up-foot {
-    /* height: 500px; */
+    height: 500px;
 }
 
 .down-foot {
-    /* height: 90px; */
+    height: 90px;
 }
