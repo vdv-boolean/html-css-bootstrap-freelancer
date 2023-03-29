@@ -12,26 +12,18 @@ nav {
 
 .jumbo img {
     height: 260px;
-}
+} 
 
 section {
     min-height: 500px;
 }
 
-.box
- {
-    height: 360px;
+.box {
+    /* height: 360px;
+    background-color: salmon;  */
+} 
 
-    background-color: salmon;
-  
-    
-}
 
-.box img {
-    
-    width: 100%;
-    object-fit: contain;
-}
 
 .up-foot {
     /* height: 500px; */
