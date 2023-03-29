@@ -67,6 +67,10 @@ nav {
     color: white;
 }
 
+nav a {
+    color: white;
+}
+
 /***********************
 Jumbo
 ***********************/
@@ -90,6 +94,10 @@ Upper footer
 
 .up-foot {
     background-color: var(--blue-grey);
+}
+
+.up-foot a {
+    color: var(--green);
 }
 
 /***********************
