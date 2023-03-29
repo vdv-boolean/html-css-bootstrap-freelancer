@@ -3,16 +3,17 @@ Debug structure
 ************************************************/
 
 nav {
-    height: 90px;
+    /* height: 90px; */
     background-color: var(--drk-grey);
+    color: white;
 }
 
-nav .container,
+/* nav .container,
 nav .col-4,
 nav .col-1 {
     height: 100%;
     border: 1px solid black;
-}
+} */
 
 .jumbo {
     height: 500px;
@@ -28,10 +29,19 @@ section {
     min-height: 500px;
 }
 
-.box {
+.box
+ {
     height: 360px;
+
     background-color: salmon;
-    border-radius: 20px;
+  
+    
+}
+
+.box img {
+    
+    width: 100%;
+    object-fit: contain;
 }
 
 section:nth-child(2) {
