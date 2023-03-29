@@ -54,4 +54,48 @@ Pseudo element
     background-color: black;
 }
 
+/************************************************
+Header
+************************************************/
 
+/***********************
+Nav
+***********************/
+
+nav {
+    background-color: var(--drk-grey);
+    color: white;
+}
+
+/***********************
+Jumbo
+***********************/
+
+.jumbo {
+    background-color: var(--green);
+    color: white;
+}
+
+/************************************************
+Footer
+************************************************/
+
+footer {
+    color: white;
+}
+
+/***********************
+Upper footer
+***********************/
+
+.up-foot {
+    background-color: var(--blue-grey);
+}
+
+/***********************
+Lower footer
+***********************/
+
+.down-foot {
+    background-color: var(--drk-grey);
+}
