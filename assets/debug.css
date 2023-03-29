@@ -33,12 +33,6 @@ section {
     object-fit: contain;
 }
 
-section:nth-child(2) {
-    background-color: var(--green);
-    color: white;
-}
-
-
 .up-foot {
     /* height: 500px; */
 }

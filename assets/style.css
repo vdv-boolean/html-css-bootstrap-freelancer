@@ -81,6 +81,20 @@ Jumbo
 }
 
 /************************************************
+Main
+************************************************/
+
+section:nth-child(2) {
+    background-color: var(--green);
+    color: white;
+}
+
+form button {
+    background-color: var(--green) !important;
+    color: white !important;
+}
+
+/************************************************
 Footer
 ************************************************/
 
